@@ -1,0 +1,88 @@
+@CHARSET "UTF-8";
+
+body {
+	margin: auto;
+	background-color: #FFFFFF;				/* Vit färg underliggande */
+	font-family: "Open Sans", Helvetica, Arial, sans-serif; /* Använda fonter till texter */
+	font-size: 18px;						/* Storlek på texter  */
+	overflow-x: hidden;						/* I detta fallet, dölja de vita ytterkanterna  */
+	border:2px solid #fff;					/* Värdena för ramen runtomkring  */
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	border-radius:25px;
+	
+}
+html {
+	margin: 2%; 							/* Förhindrar att innehållet kommer för nära kanten  */
+	background-image: url(webut10.jpg);		/* Sätter bakgrundsbilden bakom bodyn */
+	background-repeat: no-repeat;			/* Bakgrundsbilden ska ej replikera sig  */
+	background-attachment: fixed;			/* Bakgrundsbilden fast, ej scrolla med  */
+	background-size: cover;					/* Bakgrundsbilden ska täcka hela "baksidan"  */
+}
+
+.startbild{									/* Bilden på framsidan  */	
+	margin: 10px auto 20px;					/* Automarginal  */
+    display: block;							/* Gör bilden till ett block  */
+	border:2px solid #fff;					/* Värdena för ramen runtom  */
+	-moz-box-shadow: 10px 10px 5px #ccc;
+	-webkit-box-shadow: 10px 10px 5px #ccc;	
+	box-shadow: 10px 10px 5px #ccc;			/* Värdena för skuggeffekten */
+	-moz-border-radius:25px;				
+	-webkit-border-radius:25px;				
+	border-radius:25px;						/* Värdena för ramen runtom  */	
+	width: 78%;								/* Bredden på bilden */	
+	margin-top: -1.5%;						/* Marginalen upptill  */	
+	margin-bottom: 2%;						/* Marginalen nedtill */	
+
+}
+
+tr:nth-child(even) {			
+	background-color: #f2f2f2;	/* Sätter varannat fält i tabellen till grått  */
+	color: black;				/* Textfärgen svart  */			
+}
+
+.subhead {						
+	text-align: center;			/* Centrerar texten  */
+	margin-left: 5%;			/* Marginal till vänster  */
+	margin-right: 5%;			/* Marginal till höger */
+	color: black;				/* Svart färg på text  */
+
+}
+
+.subhead2 {						
+	text-align: center;			/* Centrerar texten  */
+	margin-left: 5%;			/* Marginal till vänster  */
+	margin-right: 5%;			/* Marginal till höger */
+	color: black;				/* Svart färg på text  */
+}
+
+.subhead3 {						
+	text-align: center;			/* Centrerar texten  */
+	margin-left: 5%;			/* Marginal till vänster  */
+	margin-right: 5%;			/* Marginal till höger */
+	color: black;				/* Svart färg på text  */
+}
+
+.contact {						
+	text-align: center;			/* Centrerar texten  */
+	color: black;				/* Svart färg på text  */
+}
+
+h2{
+	text-align: center;			/* Centrerar texten  */
+	font-weight: bold;			/* Rubrikens text tjock  */
+	color: black;				/* Svart färg på text  */
+}
+
+.table-container {
+	margin: 2%;					/* Marginal runt om  */
+	color: black;				/* Svart färg på text  */
+}
+
+.contact {
+	margin-bottom: 2%;			/* Marginal nedtill */
+	color: black;				/* Svart färg på text  */
+}
+
+
+
